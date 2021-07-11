@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- TODO: ------------------- Required meta tags ------------------>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--TODO:----- Google Fonts(Optional) Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!--TODO:----- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--TODO:----- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!--TODO:------------- Custom Personalize css  -------------->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+
+    <!--TODO:-------------- Animation.css links(Please Include anim folder)  -------------->
+    <link rel="stylesheet" href="anim/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <title>Bankist Application</title>
+    <!--TODO:------ Adding icon of Max size of (100 X 100) in Tab bar -->
+    <link rel="shortcut icon" href="img/icon.png">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-light " id="nev">
+        <p class="intro_msg">Log in to get started</p>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <img src="img/logo.png" alt="logo" id="logo">
+                </li>
+            </ul>
+
+            <a href="" id="mode" class="LIGHT"><i class="far fa-moon moon" id="icon" data-toggle="tooltip"
+                    data-placement="bottom" title="Dark Mode"></i></a>
+            <!-- <i class="far fa-sun"></i> -->
+
+            <!-- <i class="fas fa-sun sun"></i> -->
+            <form>
+                <input class=" user_input" type="text" placeholder="user">
+                <input class=" pin_input" type="password" placeholder="PIN">
+                <button class="btn arrow login_btn" data-toggle="tooltip" data-placement="bottom"
+                    title="Log in">&rarr;</button>
+            </form>
+
+
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h4 class="cb">Current balance</h4>
+                <p class="dt">As of <span class="current_date">07/01/2021</span> </p>
+            </div>
+            <div class="col-sm-6 text-right">
+                <h1 class="current_balance">000000€</h1>
+            </div>
+        </div>
+        <div class="col-6 sorting_btn">
+            <div class="row text-right ">
+                <button class="btn arrow3 sort_btn mx-0" id="btn_sort" data-toggle="tooltip" data-placement="bottom"
+                    title="Sort/Un-sort data">
+                    <span class="sort_sign">↑</span>
+                    <span class="sort_val">Sort</span>
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <div class="row mt-3">
+
+            <!--************** Movements box *****************-->
+
+            <div class="mov_box col-md-7 ">
+
+                <div class="row movements text-uppercase">
+                    <p class="deposit_type">2 Deposit</p>
+                    <!-- <p class="mov_date">3 DAYS AGO</p> -->
+                    <p class="mov_value">4000€</p>
+                </div>
+
+
+                <div class="row movements">
+                    <p class="withdrawl_type">1 WITHDRAWL</p>
+                    <!-- <p class="mov_date">24/07/2037</p> -->
+                    <p class="mov_value">-378€</p>
+                </div>
+
+
+
+
+
+            </div>
+            <!--************** Transfer,request and close boxes *****************-->
+            <div class="col-md-5">
+
+
+                <div class="transfer_box">
+                    <p class="sec_box_text">Transfer money</p>
+                    <div class="ss">
+                        <form>
+
+                            <input class="transfer_to " placeholder="Transfer to" type="text">
+                            <input class="amount_transfer" placeholder="Amount" type="number">
+                            <button class="btn arrow2 transfer_btn">&rarr;</button>
+                        </form>
+
+                        <div>
+                            <span class="transfer">Transfer to</span>
+                            <span class="amount1">Amount</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="request_box">
+                    <p class="sec_box_text">Request loan</p>
+                    <div class="ss">
+                        <form>
+                            <input class="amount_request" placeholder="Amount" type="number">
+                            <button class="btn arrow2 loan_btn">&rarr;</button>
+                        </form>
+
+                        <div>
+                            <span class="amount2">Amount</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="close_box">
+                    <p class="sec_box_text">Close account</p>
+                    <div class="ss">
+
+                        <form>
+
+                            <input class="confirm_user" type="text" placeholder="Confirm User">
+                            <input class="confirm_pin" type="password" placeholder="Confirm Pin">
+                            <button class="btn arrow2 close_btn ">&rarr;</button>
+                        </form>
+
+                        <div>
+                            <span class="first_inp_txt conf_user">Confirm User</span>
+                            <span class="sec_inp_txt conf_pin">Confirm Pin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--***************** summary details ****************  -->
+        <!-- <div class="row mt-4">
+            <div class="row col-xl-7">
+                <p class="summary_text">IN</p>
+                <p class="in_value sum_val">0000€</p>
+                <p class="summary_text ml-5">OUT</p>
+                <p class="out_value sum_val"> 0000€</p>
+                <p class="summary_text ml-5">INTEREST</p>
+                <p class="interest_value sum_val">0000€</p>
+            </div>
+            <div class="col-xl-5 time_txt">You will be logged out in <span class="time">5:00</span></div>
+        </div> -->
+
+
+
+        <div class="row mt-4 comp_sum">
+            <div class="row col-xl-8">
+
+                <div class="row col-xl-4">
+                    <p class="summary_text s1">IN</p>
+                    <p class="in_value sum_val v1">0000€</p>
+                </div>
+
+                <div class="row col-xl-4 ml-xl-3">
+                    <p class="summary_text s2">OUT</p>
+                    <p class="out_value sum_val v2"> 0000€</p>
+                </div>
+
+                <div class="row col-xl-4 ml-xl-3 ">
+                    <p class="summary_text s3">INTEREST</p>
+                    <p class="interest_value sum_val v3">0000€</p>
+                </div>
+
+            </div>
+
+            <div class=" col-xl-4 time_txt">
+                You will be logged out in <span class="time">5:00</span>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <div class="row mt-4 short_sum ">
+            <div class="row">
+                <p class="summary_text">IN</p>
+                <p class="in_value sum_val">0000€</p>
+            </div>
+            <div class="row">
+                <p class="summary_text ">OUT</p>
+                <p class="out_value sum_val"> 0000€</p>
+            </div>
+            <div class="row">
+                <p class="summary_text ">INTEREST</p>
+                <p class="interest_value sum_val">0000€</p>
+            </div>
+            <div class="ml-auto time_txt">You will be logged out in <span class="time">5:00</span></div>
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--TODO:----- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--TODO:----- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!--TODO:----- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--TODO:----- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <!--TODO:----- Customize(User) JavaScript -->
+    <script src="js/data_script.js"></script>
+    <script src="js/main_script.js"></script>
+    <!--TODO:------------ Font awesome icons link  -------------->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!--TODO:---------- Wow.js link and then script for scrolling animation  -------------->
+    <script src="anim/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

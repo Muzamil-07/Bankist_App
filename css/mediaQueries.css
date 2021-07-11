@@ -1,0 +1,903 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>Large Devices */
+@media(min-width:1200px) and (max-width:1210px) {
+    .arrow2 {
+        width: 28px;
+        height: 25px;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>Medium Devices */
+@media(min-width:992px) and (max-width:1199px) {
+
+
+    .user_input,
+    .pin_input {
+        width: 100px;
+        height: 28px;
+        margin-right: 0px;
+    }
+
+    img#logo {
+        width: 46px;
+        height: 46px
+    }
+
+    .arrow {
+        font-size: 18px;
+    }
+
+    .intro_msg {
+        font-size: 18px;
+    }
+
+    .moon,
+    .sun {
+        font-size: 18px;
+    }
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 100px;
+        height: 25px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .amount_request {
+        width: 150px;
+        height: 25px;
+    }
+
+    .transfer {
+        font-size: 12px;
+        padding-left: 1.4rem;
+    }
+
+    .arrow2 {
+        width: 30px;
+        height: 25px;
+    }
+
+    .amount1 {
+        font-size: 12px;
+        padding-left: 3.3rem;
+    }
+
+    .amount2 {
+        font-size: 12px;
+
+    }
+
+    .first_inp_txt {
+        font-size: 12px;
+        padding-left: 1rem;
+    }
+
+    .sec_inp_txt {
+        font-size: 12px;
+        padding-left: 2rem;
+    }
+}
+
+
+
+@media(min-width:880px) and (max-width:991px) {
+
+
+
+
+
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 70px;
+
+    }
+
+
+
+    .transfer_to::placeholder,
+    .amount_transfer::placeholder,
+    .amount_request::placeholder,
+    .confirm_user::placeholder,
+    .confirm_pin::placeholder {
+        opacity: 1;
+    }
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 3.5rem
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 15.1rem
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 24.8rem
+    }
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 160px;
+        height: 25px;
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .amount_request {
+        width: 160px;
+        height: 30px;
+    }
+
+    .arrow2 {
+        width: 2.5rem;
+        height: 1.5rem
+    }
+
+    .transfer,
+    .amount1,
+    .amount2,
+    .first_inp_txt,
+    .sec_inp_txt {
+        display: none;
+    }
+
+    .amount2 {
+        padding: 1px;
+    }
+
+    .sec_box_text {
+        font-weight: 550;
+        padding-top: 12px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .user_input,
+    .pin_input {
+        width: 80px;
+        height: 24px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .user_input::placeholder,
+    .pin_input::placeholder {
+        font-size: 12px;
+    }
+
+    img#logo {
+        width: 35px;
+        height: 35px
+    }
+
+    .arrow {
+        font-size: 14px;
+    }
+
+    .intro_msg {
+        font-size: 15px;
+    }
+
+    .moon,
+    .sun {
+        font-size: 15px;
+    }
+
+
+    .movements {
+        padding-left: 15px;
+
+    }
+
+    .deposit_type {
+        font-size: 9px;
+        border-radius: 15px;
+        width: 70px;
+        height: 15px;
+
+    }
+
+    .withdrawl_type {
+        font-size: 9px;
+        border-radius: 15px;
+        width: 90px;
+        height: 15px;
+
+    }
+
+    .mov_date {
+        margin-left: 2.8rem;
+        font-size: 10px;
+
+    }
+
+    .mov_value {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .sort_sign {
+        font-size: 14px;
+
+    }
+
+    .sort_val {
+        font-weight: 600;
+        font-size: 9px;
+    }
+}
+
+
+@media(max-width:1199px) {
+    .summary_text {
+        font-size: 10px;
+        margin-top: 14px;
+        margin-right: 6px;
+
+    }
+
+    .sum_val {
+        font-size: 23px;
+        width: 40%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .v1,
+    .v3 {
+        background-image: linear-gradient(to top left, #39b385, #9be15d);
+        color: white;
+
+    }
+
+    .v2 {
+        background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+        color: white;
+
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 14px;
+    }
+
+    .s1 {
+        margin-right: 82px
+    }
+
+    .s2 {
+        margin-right: 68px
+    }
+
+    .s3 {
+        margin-right: 30px
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+@media(min-width:768px) and (max-width:879px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 70px;
+
+    }
+
+
+
+    .transfer_to::placeholder,
+    .amount_transfer::placeholder,
+    .amount_request::placeholder,
+    .confirm_user::placeholder,
+    .confirm_pin::placeholder {
+        opacity: 1;
+    }
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 3.5rem
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 15.1rem
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 13.6rem;
+        bottom: 24.8rem
+    }
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 160px;
+        height: 25px;
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .amount_request {
+        width: 160px;
+        height: 30px;
+    }
+
+    .arrow2 {
+        width: 2.5rem;
+        height: 1.5rem
+    }
+
+    .transfer,
+    .amount1,
+    .amount2,
+    .first_inp_txt,
+    .sec_inp_txt {
+        display: none;
+    }
+
+    .amount2 {
+        padding: 1px;
+    }
+
+    .sec_box_text {
+        font-weight: 550;
+        padding-top: 12px;
+    }
+
+
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra Small Devices */
+@media(min-width:576px) and (max-width:767px) {
+
+
+    .sum_val {
+        font-size: 23px;
+        width: 40%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 200px;
+    }
+
+    .s1 {
+        margin-right: 98px
+    }
+
+    .s2 {
+        margin-right: 87px
+    }
+
+    .s3 {
+        margin-right: 55px
+    }
+
+    .summary_text {
+        font-size: 8px;
+        margin-top: 14px;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 12px;
+    }
+
+    .sum_val {
+        font-size: 18px;
+        padding-left: 8px;
+        /* padding-top: -100px; */
+    }
+
+    .user_input,
+    .pin_input {
+        width: 80px;
+        height: 20px;
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    .user_input::placeholder,
+    .pin_input::placeholder {
+        font-size: 12px;
+    }
+
+    img#logo {
+        width: 45px;
+        height: 45px;
+        display: none;
+    }
+
+    .arrow {
+        font-size: 14px;
+    }
+
+    .intro_msg {
+        font-size: 16px;
+    }
+
+    .moon,
+    .sun {
+        font-size: 15px;
+    }
+
+
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .transfer_box {
+        margin-top: 20px;
+    }
+
+    .transfer_to::placeholder,
+    .amount_transfer::placeholder,
+    .amount_request::placeholder,
+    .confirm_user::placeholder,
+    .confirm_pin::placeholder {
+        opacity: 1;
+    }
+
+    .sort_btn {
+        left: 13.5rem
+    }
+
+    .transfer,
+    .amount1,
+    .amount2,
+    .first_inp_txt,
+    .sec_inp_txt {
+        display: none;
+    }
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+@media(max-width:575px) {
+
+
+    .sum_val {
+        width: 100%;
+        height: 105
+    }
+
+    .v1,
+    .v2,
+    .v3 {
+        font-size: 20px;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 50px;
+    }
+
+    .s1 {
+        margin-right: 98px
+    }
+
+    .s2 {
+        margin-right: 87px
+    }
+
+    .s3 {
+        margin-right: 55px
+    }
+
+
+    .summary_text {
+        font-size: 12px;
+    }
+
+    .long_sum {
+        display: none;
+    }
+
+
+
+    .short_sum {
+        display: block;
+
+    }
+
+    .comp_sum {
+        justify-content: center;
+
+
+    }
+
+    .cb {
+
+        font-size: 20px;
+    }
+
+    .dt {
+
+        font-size: 16px;
+    }
+
+    .current_balance {
+        font-size: 30px;
+    }
+
+    .user_input,
+    .pin_input {
+        width: 70px;
+        height: 20px;
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    .user_input::placeholder,
+    .pin_input::placeholder {
+        font-size: 12px;
+    }
+
+    img#logo {
+        width: 45px;
+        height: 45px;
+        display: none;
+    }
+
+    .arrow {
+        font-size: 14px;
+    }
+
+    .intro_msg {
+        font-size: 14px;
+    }
+
+    .moon,
+    .sun {
+        font-size: 12px;
+
+    }
+
+    #mode {
+        margin-right: 8px;
+    }
+
+
+
+
+
+
+
+    .transfer_to::placeholder,
+    .amount_transfer::placeholder,
+    .amount_request::placeholder,
+    .confirm_user::placeholder,
+    .confirm_pin::placeholder {
+        opacity: 1;
+    }
+
+    .transfer_box {
+        margin-top: 20px;
+    }
+
+    .movements {
+        padding-left: 10px;
+
+    }
+
+    .deposit_type {
+        font-size: 8px;
+        width: 60px;
+        height: 12px;
+
+    }
+
+    .withdrawl_type {
+        font-size: 8px;
+        width: 70px;
+        height: 11px;
+
+    }
+
+    .mov_date {
+        margin-left: 2rem;
+        font-size: 8px;
+
+    }
+
+    .mov_value {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .sort_sign {
+        font-size: 12px;
+
+    }
+
+    .sort_val {
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    .sort_btn {
+        left: 10rem
+    }
+
+    .transfer,
+    .amount1,
+    .amount2,
+    .first_inp_txt,
+    .sec_inp_txt {
+        display: none;
+    }
+
+
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 20rem;
+        bottom: 2.3rem
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 20rem;
+        bottom: 13.6rem;
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 20rem;
+        bottom: 23.5rem
+    }
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 250px;
+        height: 24px;
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .amount_request {
+        width: 250px;
+        height: 24px;
+    }
+
+    .arrow2 {
+        width: 2.5rem;
+        height: 1.5rem
+    }
+
+}
+
+@media(min-width:421px) and (max-width:469px) {
+
+    .v1,
+    .v2,
+    .v3 {
+        font-size: 14px;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 10px;
+    }
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 200px;
+        height: 20px;
+    }
+
+    .amount_request {
+        width: 200px;
+        height: 20px;
+    }
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 16rem;
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 16rem;
+        bottom: 13.8rem;
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 16rem;
+    }
+
+    .arrow2 {
+        width: 2rem;
+        height: 1.4rem
+    }
+}
+
+
+
+@media(min-width:350px) and (max-width:420px) {
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 140px;
+        height: 20px;
+    }
+
+    .amount_request {
+        width: 140px;
+        height: 20px;
+    }
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 12rem;
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 12rem;
+        bottom: 13.8rem;
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 12rem;
+    }
+
+    .arrow2 {
+        width: 2rem;
+        height: 1.4rem
+    }
+
+    .sort_btn {
+        left: 6.8rem
+    }
+}
+
+@media(min-width:371px) and (max-width:419px) {
+
+    .transfer_to,
+    .amount_transfer,
+    .confirm_user,
+    .confirm_pin {
+        width: 170px;
+        height: 20px;
+    }
+
+    .amount_request {
+        width: 170px;
+        height: 20px;
+    }
+
+    .arrow2.close_btn {
+        position: absolute;
+        left: 14rem;
+    }
+
+    .arrow2.loan_btn {
+        position: absolute;
+        left: 14rem;
+        bottom: 13.8rem;
+    }
+
+    .arrow2.transfer_btn {
+        position: absolute;
+        left: 14rem;
+    }
+
+    .arrow2 {
+        width: 2rem;
+        height: 1.4rem
+    }
+}
+
+@media(min-width:350px) and (max-width:459px) {
+
+    .v1,
+    .v2,
+    .v3 {
+        font-size: 14px;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        font-size: 10px;
+    }
+
+    .user_input,
+    .pin_input {
+        width: 80px;
+        height: 15px;
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    .user_input::placeholder,
+    .pin_input::placeholder {
+        font-size: 12px;
+    }
+
+
+
+    .arrow {
+        font-size: 16px;
+        position: relative;
+        top: -14px
+    }
+
+    .intro_msg {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .moon,
+    .sun {
+        font-size: 10px;
+
+    }
+
+    #mode {
+        margin-right: 4px;
+        position: relative;
+        top: -2px;
+        left: 9rem;
+
+    }
+
+    .cb {
+
+        font-size: 16px;
+    }
+
+    .dt {
+
+        font-size: 12px;
+    }
+
+    .current_balance {
+        font-size: 22px;
+    }
+}
